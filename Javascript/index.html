@@ -1,0 +1,124 @@
+<html>
+<head>
+    
+    <meta>
+        
+    <title>JavaScript Live</title>
+    <header>
+        
+      <nav>
+          
+      </nav>  
+    </header>
+    
+   
+    <script src="javascript.js"></script>
+  
+</head>
+
+<body>
+<section>
+    
+<p id="paul"></p>
+<p id="demo" class="hemi">Bidam group 6 rocks, woohii.</p>
+<p id="dema" class="hemi">JavaScript can change HTML content.</p>
+<p id="date">Date will display here</p>
+<p>The light bulb come on when you click</p>
+&nbsp; 
+<button type="button" onclick="myFunction()">You May Enter</button>
+ <br/> <br/>&nbsp;   
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">
+Click Me!</button>
+<br/><br/>&nbsp;
+<button type="button" onclick="document.getElementById('date').innerHTML = Date()">Click to display time and date</button>
+<br/>
+<img id="myImage" onclick="changeImage()" src="img/pic_bulboff.gif" width="100" height="180">
+    
+
+    
+<br/>
+    <p> Please input a number between 1 to 5:</p>
+    <input id="numb">
+    <button type="button" onclick="myValidity()">Submit</button>
+    
+    <p id="gemo"></p></br>
+    <p id="jeta"> I love ECMA Script</p></br>
+
+    <button type="button" onclick="myJavahead()">Changed Text Here</button>
+    
+    <br/>
+    <p>Display Calculator Alert</p>
+    <button type="button" onclick="myAlert()">Click to Calculate</button>
+    
+    <!-- Display the sum of 10 + 5, using two variables x and y.-->
+    <p id="sumvar">Display results of the sum of variable x and y here.</p>
+    
+    <p id="typeof"></p>
+    <br>
+    
+    <p id="func"></p>
+    <br>
+    <p id="functest"></p>
+</section>   
+
+
+
+    <footer>
+        <h1>Javascript display/output functions
+        </h1>
+<h3>
+        window.alert()</br>
+        document.write()</br>
+        innerHTML</br>
+        console.log()</h3>
+    </footer>
+<script>
+var x = 10;
+var y = 5;
+document.getElementById("sumvar").innerHTML = x + y;
+    
+document.getElementById("typeof").innerHTML =
+typeof "John" + "<br>" +
+typeof 3.14 + "<br>" +
+typeof false + "<br>" +
+typeof [1,2,3,4] + "<br>" +
+typeof{name:"John", age:34};
+    
+    
+function myTimes(x * y) {
+    // Add code here
+var x = 5;
+var y = 5;
+}
+document.getElementById("func").innerHTML = myTimes();
+    
+    
+function myTest(){
+    var w = 8;
+    var h = 8;
+    return w * h;
+}
+document.getElementById("functest").innerHTML = myTest();
+    
+// Testing codebyter conditionals
+<!--
+    var g = 7;
+
+if (g === 5){
+    'Correct';
+    }
+else if (g === 7){
+        'else if was executed';
+        }
+else {
+    'else statement was executed';
+}
+</script>
+
+  
+
+</body>
+
+
+</html>
